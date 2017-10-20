@@ -14,7 +14,7 @@ Book Head First - Design Patterns
 * [Design Patterns Examples - Repo](https://github.com/bethrobson/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns) - Bethrobson
 
 ### Strategy Pattern
-* [Silly Powerful Duck Example] (https://github.com/douglasep/Design-Software/blob/master/Design%20Pattern/Strategy/PatosEstrat%C3%A9gicos.cs) - Exemplo em C#
+* [Silly Powerful Duck Example](https://github.com/douglasep/Design-Software/blob/master/Design%20Pattern/Strategy/PatosEstrat%C3%A9gicos.cs) - Exemplo em C#
 * [Strategy Pattern - Vídeo](youtube.com/watch?v=v9ejT8FO-7I&t=1290s) - Strategy Pattern - Christopher Okhravi
 
 ### Facades Pattern
