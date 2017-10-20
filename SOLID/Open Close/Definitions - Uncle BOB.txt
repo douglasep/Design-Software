@@ -1,0 +1,46 @@
+https://8thlight.com/blog/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html
+
+A satisfactory modular decomposition technique must satisfy one more requirement: 
+It should yield modules that are both open and closed.
+
+    A module will be said to be open if it is available for extension. 
+    For example, it should be possible to add fields to the data structures it contains, 
+    or new elements to the set of functions it performs.
+
+    A module will be said to be closed if is available for use by other modules. 
+    This assumes that the module has been given a well-defined, stable description 
+    (the interface in the sense of information hiding). In the case of a programming language module, 
+    a closed module is one that may be compiled and stored in a library, for others to use. 
+    In the case of a design or specification module, 
+    closing a module simply means having it approved by management, 
+    adding it to the project's official repository of accepted software items 
+    (often called the project baseline), 
+    and publishing its interface for the benefit of other module designers.
+
+
+Uma satisfatória técnica de decomposição modular necessita satisfazer um outro requerimento:
+Ela deveria chamar módulos que estão ao mesmo tempo abertos e fechados.
+
+    Um módulo será chamado de aberto se ele estiver disponível para extensões.
+    Por exemplo, deveria ser possível adicionar campos nas estruturas de dados deste módulo,
+    ou novos elemento nos conjuntos de funções que ele executa.
+
+    Um módulo será chamado de fechado se este for disponível para ser utilizado por outros módulos.
+    Isto pressupõe que este módulo recebeu uma descrição bem definida e estável 
+    (a interface no sentido da informação escondida). Um módulo em linguagem de programação,
+    um módulo fechado é aquele que pode ser compilado e armazenado numa biblioteca, para outros módulos poderem utilizá-lo.
+    Em caso de um módulo de design ou especificação, fechar um módulo simplesmente significa que este foi aprovado pela adm,
+    adicionando este ao repositório oficial do projeto de itens aceitos do software
+    (sempre chamado de project baseline),
+    e publicando sua interface como beneficio a outros designers de módulos.
+
+
+
+    KEY PHRASE!!
+
+    You should be able to extend the behavior of a system without having to modify that system.
+
+
+    FRASE CHAVE
+
+    Você deveria ser capaz de extender o comportamento de um sistema sem precisar modificar o sistema.
