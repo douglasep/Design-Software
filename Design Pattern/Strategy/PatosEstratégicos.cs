@@ -1,5 +1,5 @@
 // Este exemplo foi retirado do livro Head First - Design Patterns
-// Exemplo dos patos de Christopher Okhravi
+// Exemplo dos patos modificado por Christopher Okhravi
 // em: youtube.com/watch?v=v9ejT8FO-7I&t=1290s
 
 
@@ -16,14 +16,14 @@
 // Aqui deveriamos implementar os 3 métodos de diferentes formas apenas para o pato de borracha
 // Criar um comportamento de "Não Voar" para o patinho de borracha
 
-// Então surgem o MontainDuck
-// Este tem também possui uma forma diferente de Voar(), então teriamos que implementar outro método para esta classe
+// Então surge o MontainDuck
+// Este também possui uma forma diferente de Voar(), então teriamos que implementar outro método para esta classe
 
-// Dai o CloudDuck surge
+// Dai vem o CloudDuck
 // O CloudDuck voa igual o Montain Duck, ou seja, o médoto que já foi implementado no MontainDuck terá que ser implementado aqui também
 
 // Usando hierarquias
-// Simplificando as implementações dos métodos ficariam:
+// Simplificando as implementações dos métodos ficariam assim:
 //  Duck -  Display() | Fly() | Quack() 
 //      CityDuck : Duck - Display()
 //      WildDuck : Duck - Display()
@@ -32,17 +32,17 @@
 //      ClourDuck : Duck - Display() | SuperFly()
 
 
-// CLASSE ABSTRATA
+// Aplicando Strategy Pattern
 
-// se definíssemos os behaviors aqui (hard-code), não consegueriamos implementá-los nos ducks 
 public abstract class Duck
 {
     // definindo as interfaces
-	IFlyBehavior flyBehavior;
-	IQuackBehavior quackBehavior;
+    IFlyBehavior flyBehavior;
+    IQuackBehavior quackBehavior;
     IDisplayBehavior displayBehavior;
-    
-     // constructor
+    // obs: Se definíssemos os behaviors aqui (hard-code), não consegueriamos implementá-los nos ducks 
+
+    // constructor
     public Duck(
         FlyBehavior flyBehavior,
         QuackBehavior quackBehavior,
